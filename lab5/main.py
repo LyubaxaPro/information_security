@@ -50,7 +50,7 @@ def check(data):
 
 
 if __name__ == '__main__':
-    with open("test.txt", 'rb') as input_file:
+    with open("lr_7_Прохорова.pdf", 'rb') as input_file:
         data = input_file.read()
         sign(data)
         print("Электронная подпись была поставлена")
